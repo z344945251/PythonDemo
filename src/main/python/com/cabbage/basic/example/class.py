@@ -19,7 +19,7 @@ class Counter:
         self._value = 0
         print(self.__weight)
 
-    def increment(self, amount = 1):
+    def increment(self, amount=1):
         self._value += amount
 
     def decrement(self, amount = 1):
